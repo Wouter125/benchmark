@@ -3,7 +3,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
-    preset: 'netlify',
+    preset: 'vercel',
     serveStatic: true
   },
 })
